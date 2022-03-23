@@ -1,0 +1,19 @@
+@import "variables";
+.iframe-div {
+    padding: 1rem ;
+
+    div {
+     
+    }
+    span {
+        padding: 0.5rem 0.5rem;
+        background-color: $primary-color;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .fb-page {
+        width: 100%;
+        min-height: 500px;
+    }
+}

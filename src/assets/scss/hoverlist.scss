@@ -1,0 +1,32 @@
+@import "variables";
+.hover__list {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 5;
+        background-color: $primary-dark;
+        color: white;
+
+        li {
+                border-bottom: 1px solid $primary-darker;
+
+                font-size: .7rem;
+                min-width: 300px;
+        }
+        
+        &-right {
+                position: absolute;
+                left: 100%;
+                top: 0%;
+
+                @media (max-width: 700px) {
+                        position: relative;
+                        left: 0%;
+                        
+                        li {
+                                padding: 0 !important;
+                                min-width: 250px;
+                        }
+                }
+        }
+}

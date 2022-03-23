@@ -1,0 +1,22 @@
+@import 'variables';
+
+.navbar {
+    font-size: .8rem;
+    background-color: $primary-color;
+    ul {
+        margin: 0;
+        padding: 0;
+        
+        
+        li {
+            padding: .2rem 1rem;
+            position: relative;
+            
+            a {
+                width: 100%;
+                color: white !important;
+            }
+        }
+
+    }
+}
