@@ -5,8 +5,8 @@ import video from '../assets/Images/Website_Banner.mp4'
 function Slider() {
     return (
         <div>
-            <div className='row'>
-                <div className='col-lg-12'>
+            <div className='row gx-0'>
+                <div className='col-lg-12 p-0'>
                     <div className="background">
                             <div className="content">             
                             <video id="video_player" loop autoPlay muted>

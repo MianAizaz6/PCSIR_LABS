@@ -34,9 +34,9 @@ function TopSection() {
 </p>
                             </div>
                         </div>
-                        <div className="col-md-6 sm-12 md-6 d-flex justify-content-center">
-                            <div className="logos">
-                                <a href="##"><img src={Logo1} alt="Logo" /></a>
+                        <div className="col-md-6 sm-12 md-6">
+                            <div className="logos ">
+                                <a href="##"><img className='img-fluid' src={Logo1} alt="Logo" /></a>
                                
                                 
                             </div>
