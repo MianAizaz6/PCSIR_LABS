@@ -18,7 +18,7 @@ function Team() {
                     <Fade left>
                         <div className="teamCard d-flex justify-content-center">
                            <div className='image-team'>
-                            <img src={AvatarLogo} alt="" />
+                            <img src={AvatarLogo} alt="avatar logo" />
                            </div>
                            <div>
                                <h4>Dr. Syed Hussain Abidi</h4>
