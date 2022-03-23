@@ -91,10 +91,10 @@ function InfoSection() {
                 </div>
         </div> */}
     </div>
-        <div className='row'>
-            <div className='col-md-12'>
+        <div className='row gx-0'>
+            <div className='col-md-12 text-center py-4'>
                     <h4 style={{textAlign:'center'}}>Main Activities </h4>
-                    <img src={Activity} alt="activity" />
+                    <img className='img-fluid' src={Activity} alt="activity" />
             </div>
         </div>
       </div>

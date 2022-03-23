@@ -25,15 +25,7 @@
     height: 100%;
     margin-right: 10px;
 }
-.logos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0.4;
-    object-fit:cover;
-}
-.logos a img{
-    height: 90%;
-}
+
 
 .teamCard{
     display: flex;
@@ -107,15 +99,8 @@
 
 /* Medium Screen */
 @media screen and (max-width: 850px) {
-    .logos{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;    
-        
-    }
     
-    .logos a img{
-        height: 60%;
-    }
+    
 
     .logo-section img{
         height: 100%;
