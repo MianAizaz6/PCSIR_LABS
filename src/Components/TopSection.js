@@ -28,7 +28,7 @@ function TopSection() {
                     <div className="row p-2 d-flex justify-content-center">
                         <div className="col-md-6 sm-12 lg-6">
                             <div className="logo-section">
-                                <img src={Logo} alt="" />
+                                <img src={Logo} alt=""/>
                                 <p style={{fontWeight:'500'}}>
                                 PCSIR Laboratories Complex, Peshawar
 </p>
