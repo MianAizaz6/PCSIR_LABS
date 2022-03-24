@@ -29,7 +29,7 @@ function Team() {
                     </Fade>
                     </div>
                     <div className="col-md-6 col-lg-5 col-sm-12">
-                        <Fade left>
+                        <Fade right>
 
                             <div className="teamCard d-flex justify-content-center ">
                             <div className='image-team'>

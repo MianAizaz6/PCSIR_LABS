@@ -4,13 +4,13 @@
         left: 0;
         top: 100%;
         z-index: 5;
-        background-color: $primary-dark;
+        background:linear-gradient(180deg, $primary-color, rgb(6, 79, 131));
         color: white;
 
         li {
-                border-bottom: 1px solid $primary-darker;
+                border-bottom: 1px solid white;
 
-                font-size: .7rem;
+                font-size: .8rem;
                 min-width: 300px;
         }
         

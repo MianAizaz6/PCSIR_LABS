@@ -11,7 +11,7 @@ function LabComponent() {
                 
                <div className="cardContainer mt-4 pb-2">
 
-                   <Fade bottom>
+                   <Fade top>
 
                     <div className="labcard">
                         <div className="imgContainer ">
@@ -31,7 +31,7 @@ function LabComponent() {
                         <h5>Scientists</h5>
                     </div>
                     </Fade>
-                    <Fade bottom>
+                    <Fade top>
 
                     <div className="labcard">
                         <div className="imgContainer ">
@@ -51,7 +51,7 @@ function LabComponent() {
                         <h5>Products</h5>
                     </div>
                     </Fade>
-                    <Fade bottom>
+                    <Fade top>
 
                     <div className="labcard">
                         <div className="imgContainer ">
