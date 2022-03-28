@@ -266,7 +266,8 @@ export const HeaderData = [
             {
                 title: "Medical Botanic Center",
                 hoverList: false,
-                hoverListArray: []
+                hoverListArray: [],
+                href:"medicinal-botanical-lab"
             },
             {
                 title: "Meterial Science Center",
