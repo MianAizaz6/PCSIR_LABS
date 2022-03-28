@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import logoDNA from '../assets/Images/biological.png'
-import Logo1 from '../assets/Images/img-a.png';
+
 
 function LabComponent() {
     return (

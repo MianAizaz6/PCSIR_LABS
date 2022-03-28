@@ -1,5 +1,5 @@
 import React from 'react'
-import IframeComponent from './IframeComponent'
+
 
 function IframeSection() {
   return (

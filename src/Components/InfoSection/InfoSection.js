@@ -3,12 +3,12 @@ import InfoCarousel from './InfoCarousel'
 import "../../assets/scss/infosection.scss"
 import '../../assets/scss/Slider.scss';
 
-import img1 from "../../assets/Images/industrial-collaboration.png";
-import img2 from "../../assets/Images/clinical-trial.png"
-import img3 from "../../assets/Images/facility.png"
-import img4 from "../../assets/Images/training.png"
-import img5 from "../../assets/Images/whos-who.png"
-import funnel from '../../assets/Images/funnel.png'
+// import img1 from "../../assets/Images/industrial-collaboration.png";
+// import img2 from "../../assets/Images/clinical-trial.png"
+// import img3 from "../../assets/Images/facility.png"
+// import img4 from "../../assets/Images/training.png"
+// import img5 from "../../assets/Images/whos-who.png"
+// import funnel from '../../assets/Images/funnel.png'
 import Activity from '../../assets/Images/activity.jpeg'
 
 function InfoSection() {

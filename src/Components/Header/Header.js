@@ -1,8 +1,8 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import ListItems from './ListItems'
 import "../../assets/scss/header.scss"
 import { HeaderData } from './HeaderData';
-import HoverList from './HoverList';
+
 
 function Header() {
 
