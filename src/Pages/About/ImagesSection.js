@@ -11,7 +11,7 @@ import '../../assets/scss/about.scss'
 function ImagesSection() {
     return (
         <div>
-             <div className="row">
+             <div className="row gx-0">
                  <div className="col-lg-2 col-md-3 col-sm-6">
                  <img src={About1} alt="about1" className="imageFluid" />
                  </div>
