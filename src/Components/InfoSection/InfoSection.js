@@ -15,23 +15,11 @@ function InfoSection() {
   return (
       <div className='container-fluid'>
     <div className='row gx-1 py-3 px-2'>
-        <div className='col-lg-6 col-md-6 col-sm-12'>
+        <div className='col-lg-12 col-md-6 col-sm-12'>
             <InfoCarousel/>
+            {/* <GalleryCarosel /> */}
         </div>
-        <div className='col-lg-6 col-md-6 col-sm-12'>
-        <h1 className='py-0 display-4 text-center'> Latest Updates</h1>
-                    
-                    <div className='news-section d-flex flex-column marquee'>
-
-                    <div className='news-block'>Federal Minister of Science and Technology Visit PCSIR Lab Complex </div>
-                    <div className='news-block'> Award Distribution Ceremony take place for Gardeners and Sweepers by Director </div>
-                    <div className='news-block'>Provincial Minister for Industries KPK visit PCSIR Lab Complex Peshawar </div>
-                    <div className='news-block'>Management Committee Meeting on Internal Affairs of PCSIR lab Complex </div>
-                    <div className='news-block'>Member Science and Member from Food Technology Visit </div>
-                    <div className='news-block'> Member Science and Member from Food Technology Visit</div>
-
-                    </div>
-        </div>
+        
         {/* <div className='col-lg-4 col-md-6'>
             <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center">

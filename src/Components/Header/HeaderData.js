@@ -2,13 +2,16 @@ export const HeaderData = [
     {
         title: "HOME",
         hoverList: false,
+        href:"home",
         topLevel: true,
         hoverListArray: []
     },
     {
         title: "ABOUT US",
+        href:'About',
         hoverList: false,
         topLevel: true,
+
     //     hoverListArray: [
     //         {
     //             title: "ABOUT CSIR",

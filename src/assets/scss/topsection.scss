@@ -1,3 +1,5 @@
+@import "variables";
+
 .top__section{
     display: flex;
     align-items: center;
@@ -38,12 +40,12 @@
     height: 11rem;
 
     .image-team {
-        width: 100%;
+    
         text-align: center;
-        width: 180px;
+        width: 180px ;
 
         img {
-            height: 150px;
+            height: 150px !important;
 
             border-radius: 200px;
         }
@@ -89,7 +91,7 @@
    
 }
 .imgContainer{
-    background-color: rgb(113, 177, 12);
+    background-color: $primary-color;
     border-radius: 50%;
     height: 80px;
     width: 80px;
