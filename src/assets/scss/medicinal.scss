@@ -1,0 +1,29 @@
+.MainContainer{
+    background: url('../Images/inner-bg.jpeg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    .container{
+        background-color: rgb(246, 253, 253);
+    }
+
+    .title{
+        font-size: 1.8rem;
+       
+    }
+    .subTitle{
+        font-size: 1.5rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .dataList{
+       
+        padding: 3px 10px;
+        font-size: 0.9rem;
+    }
+.imageFluid{
+    width: 100vw;
+
+}
+}

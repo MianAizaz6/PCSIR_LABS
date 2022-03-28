@@ -12,6 +12,7 @@ function ListItems({data}) {
           <li onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="nav-item">
               <a className="nav-link d-flex justify-content-between align-items-center"  aria-current="page" href="##"> 
               <span className='px-1'>{data.title}</span>
+              
               {
                 data.topLevel && (
                   <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -23,7 +24,7 @@ function ListItems({data}) {
                 )
               }
               </a>
-
+              
               {
                 hover && (
                   <HoverList topLevel={data.topLevel} dataArray={data.hoverListArray}/>
