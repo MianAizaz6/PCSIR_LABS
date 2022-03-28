@@ -10,7 +10,7 @@ import img8 from "../../assets/Images/mainImages/9.jpg"
 import img9 from "../../assets/Images/mainImages/10.JPG"
 import img10 from "../../assets/Images/mainImages/11.JPG"
 import img11 from "../../assets/Images/mainImages/12.JPG"
-import img12 from "../../assets/Images/mainImages/13.JPG"
+
 
 import '../../assets/scss/Slider.scss';
 

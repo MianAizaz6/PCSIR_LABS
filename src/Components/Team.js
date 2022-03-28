@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo1 from '../assets/Images/img-a.png';
 import '../assets/scss/topsection.scss';
 import AvatarLogo from '../assets/Images/mainImages/ChairmanPCSIR.jpeg';
 import DGLogo from '../assets/Images/dg-logo.jpeg'

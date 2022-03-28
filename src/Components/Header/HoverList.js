@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ListItems from './ListItems'
 import "../../assets/scss/hoverlist.scss"
 
 function HoverList({subHoverList, children, topLevel, dataArray}) {
-    const [subHover, setSubHover] = useState(false);
+    // const [subHover, setSubHover] = useState(false);
 
     return (
         <>
