@@ -23,18 +23,18 @@ function TopSection() {
             </div>
         </div>
         <div className="container-fluid">
-            <div className="container">
+            <div className="">
                    
-                    <div className="row p-2 d-flex justify-content-center">
+                    <div className="row p-2" style={{display:'flex', justifyContent:'flex-start'}}>
                         <div className="col-md-6 sm-12 lg-6">
                             <div className="logo-section">
                                 <img src={Logo} alt=""/>
-                                <p style={{fontWeight:'500'}}>
+                                <p style={{fontWeight:'500', marginTop:'10px'}}>
                                 PCSIR Laboratories Complex, Peshawar
 </p>
                             </div>
                         </div>
-                        <div className="col-md-6 sm-12 md-6  d-flex justify-content-center align-items-center">
+                        <div className="col-md-6 sm-12 md-6" style={{display:'flex', justifyContent:'flex-end', alignItems:'center'}}>
                             <div className="logos ">
                                 <a href="##"><img className='img-fluid' src={Logo1} alt="Logo" /></a>
                                

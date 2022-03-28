@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import HoverList from './HoverList';
+
 
 function ListItems({data}) {
   const [hover, setHover] = useState(false);
@@ -34,9 +36,12 @@ function ListItems({data}) {
       {
         !data.hoverList && (
           <li onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="nav-item">
-              <a className="nav-link d-flex justify-content-between align-items-center"  aria-current="page" href="##"> 
+              {/* <a className="nav-link d-flex justify-content-between align-items-center"  aria-current="page" href="##"> 
               <span className='px-1'>{data.title}</span>
-              </a>
+              </a> */}
+              <Link to={`/${data.href}`}  className="nav-link d-flex justify-content-between align-items-center">
+              <span className='px-1'>{data.title}</span>
+              </Link>
           </li>
         )
       }
