@@ -48,10 +48,18 @@
             height: 150px !important;
 
             border-radius: 200px;
+            transition: transform .5s; /* Animation */
         }
     }
+    
+    
+}
+.teamCard:hover{
+    transform: scale(1.1) !important;
+  
 
 }
+
 .mainBg{
     background-image: url('../Images//bg002.jpeg');
     background-size: cover;
@@ -86,7 +94,8 @@
     transition:all 200ms ease-out;
 }
 .labcard:hover{
-   transform: translateY(-8px);
+   transform: translateY(-8px) !important;
+   
    
    
 }

@@ -1,15 +1,15 @@
 import React from 'react'
-import img1 from "../../assets/Images/mainImages/2.JPG"
-import img2 from "../../assets/Images/mainImages/3.JPG"
-import img3 from "../../assets/Images/mainImages/4.jpg"
-import img4 from "../../assets/Images/mainImages/5.JPG"
-import img5 from "../../assets/Images/mainImages/6.JPG"
-import img6 from "../../assets/Images/mainImages/7.JPG"
-import img7 from "../../assets/Images/mainImages/8.JPG"
-import img8 from "../../assets/Images/mainImages/9.jpg"
-import img9 from "../../assets/Images/mainImages/10.JPG"
-import img10 from "../../assets/Images/mainImages/11.JPG"
-import img11 from "../../assets/Images/mainImages/12.JPG"
+import img1 from "../../assets/Images/mainImages/2.png"
+import img2 from "../../assets/Images/mainImages/3.png"
+import img3 from "../../assets/Images/mainImages/4.png"
+import img4 from "../../assets/Images/mainImages/5.png"
+import img5 from "../../assets/Images/mainImages/6.png"
+import img6 from "../../assets/Images/mainImages/7.png"
+import img7 from "../../assets/Images/mainImages/8.png"
+import img8 from "../../assets/Images/mainImages/9.png"
+import img9 from "../../assets/Images/mainImages/10.png"
+import img10 from "../../assets/Images/mainImages/11.png"
+import img11 from "../../assets/Images/mainImages/12.png"
 
 
 import '../../assets/scss/Slider.scss';
