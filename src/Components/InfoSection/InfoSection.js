@@ -2,6 +2,7 @@ import React from 'react'
 import InfoCarousel from './InfoCarousel'
 import "../../assets/scss/infosection.scss"
 import '../../assets/scss/Slider.scss';
+import { Fade } from 'react-reveal';
 
 // import img1 from "../../assets/Images/industrial-collaboration.png";
 // import img2 from "../../assets/Images/clinical-trial.png"
@@ -82,7 +83,10 @@ function InfoSection() {
         <div className='row gx-0'>
             <div className='col-md-12 text-center py-4'>
                     <h4 style={{textAlign:'center'}}>Main Activities </h4>
+                    <Fade right>
+
                     <img className='img-fluid' src={Activity} alt="activity" />
+                    </Fade>
             </div>
         </div>
       </div>
