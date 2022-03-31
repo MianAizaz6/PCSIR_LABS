@@ -1,0 +1,27 @@
+@import 'variables';
+
+.GalleryContainer{
+
+    background-color: rgb(245, 241, 241);
+    box-shadow: 1px 3px 2px 1px rgb(204, 203, 203);
+    padding: 20px 20px;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+
+    .header{
+        background: $primary-color;
+        padding: 10px 10px;
+        .title{
+            color: white;
+            font-size: 22px;
+        }
+    }
+    .body{
+        padding: 20px 10px;
+        .text{
+            color: rgb(22, 22, 22);
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
