@@ -38,6 +38,9 @@
     justify-content: space-evenly;
     align-items: center;
     height: 11rem;
+    transition: all 1000ms ease-out;
+    
+   
 
     .image-team {
     
@@ -56,7 +59,7 @@
 }
 .teamCard:hover{
     transform: scale(1.1) !important;
-  
+    
 
 }
 
@@ -91,7 +94,8 @@
     align-items: center;
     padding: 20px;
     height: 16rem;
-    transition:all 200ms ease-out;
+    transition:all 500ms ease-out !important;
+    
 }
 .labcard:hover{
    transform: translateY(-8px) !important;

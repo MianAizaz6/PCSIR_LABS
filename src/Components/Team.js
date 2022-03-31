@@ -6,6 +6,8 @@ import { Fade } from 'react-reveal';
 
 
 
+
+
 function Team() {
     return (
         <div>

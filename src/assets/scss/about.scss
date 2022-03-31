@@ -25,4 +25,46 @@
     width: 75vw;
     padding: 40px 40px;
 }   
+.contact-section{
+    width: 85vw;
+    padding: 40px 40px;
+    background:linear-gradient(90deg,rgb(83, 181, 250), rgb(223, 235, 245), );
+
+    .contact-card{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 2px 5px rgb(236, 234, 234);
+        width: 35vw;
+        height: 450px;
+        padding: 30px 30px;
+        border-top: 3px solid rgb(20, 145, 235);
+        border-bottom: 3px solid rgb(20, 145, 235);
+        .contact-btn{
+            background-color:rgb(20, 145, 235) ;
+        }
+    }
+    .number-card{
+        height: 450px;
+        padding: 10px 20px;
+        background: transparent;
+
+        .contact-block{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+             height: 120px;
+        }
+
+        .text{
+            font-weight: 600;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 1.4rem;
+            
+        }
+    
+        
+    }
+}
 }

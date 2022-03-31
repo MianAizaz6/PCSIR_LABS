@@ -7,7 +7,8 @@ import FooterSlider from '../../Components/FooterSlider'
 import Header from '../../Components/Header/Header';
 import ImagesSection from '../About/ImagesSection';
 
-import '../../assets/scss/medicinal.scss'
+import '../../assets/scss/medicinal.scss';
+import {Fade} from 'react-reveal';
 
 
 
@@ -24,7 +25,9 @@ function Medicinal() {
 
                         <h1 className="title">Medicinal Botanic Center</h1>
 
+                        <Fade right>
                         <h1 className="subTitle">Main Functions</h1>
+
                         <ul className="dataList">
                             <li>To undertake experimental cultivation of medicinal and aromatic plants</li>
                             <li>To improve the quality of herbs through genetic/tissue culture techniques.</li>
@@ -34,8 +37,11 @@ function Medicinal() {
 
                             
                         </ul>
+                        </Fade>
 
+                        <Fade right>
                         <h1 className="subTitle">Test Capabilities</h1>
+
                         <ul className="dataList">
                            <li>Fatty acid components profile.</li>
                            <li>Quantitative analysis of pesticides residues</li>
@@ -47,6 +53,7 @@ function Medicinal() {
 
                             
                         </ul>
+                        </Fade>
 
                     </div>
 
