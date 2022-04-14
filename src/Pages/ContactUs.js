@@ -5,7 +5,9 @@ import TopSection from '../Components/TopSection';
 
 import Header from '../Components/Header/Header';
 import '../assets/scss/contact.scss';
-import Phone from '../assets/Images/phone.png'
+import Phone from '../assets/Images/mainImages/tele.png'
+import mobile from '../assets/Images/mainImages/mob.png';
+import Email from '../assets/Images/mainImages/email.png'
 import Pulse from 'react-reveal/Pulse';
 
 
@@ -38,7 +40,7 @@ function ContactUs() {
                             <Pulse right>
 
                             <div className="card-center">
-                                <img className="logo" src={Phone} alt="logo" />
+                                <img className="logo" src={mobile} alt="logo" />
                                 <h4>Phone & Whatsapp</h4>
                                 <h6>2314123412341</h6>
                                 <h6>2314123412341</h6>
@@ -50,7 +52,7 @@ function ContactUs() {
                             <Pulse right>
 
                             <div className="card">
-                                <img className="logo" src={Phone} alt="logo" />
+                                <img className="logo" src={Email} alt="logo" />
                                 <h4>Phone & Whatsapp</h4>
                                 <h6>2314123412341</h6>
                                 <h6>2314123412341</h6>

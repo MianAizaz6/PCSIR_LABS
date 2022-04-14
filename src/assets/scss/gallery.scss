@@ -9,7 +9,8 @@
     margin-bottom: 1.4rem;
 
     .header{
-        background: $primary-color;
+        background:linear-gradient(180deg, $primary-color, rgb(6, 79, 131));
+
         padding: 10px 10px;
         .title{
             color: white;

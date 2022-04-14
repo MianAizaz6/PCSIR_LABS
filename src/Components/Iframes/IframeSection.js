@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
-function IframeSection() {
+
+function IframeSection({news}) {
   return (
     <div className='row gx-0 mt-4'>
         {/* <div className="col-lg-1"></div> */}
-        <div className='col-lg-5 col-md-6 col-sm-12 p-0 me-3'> 
+        <div className='col-lg-5 col-md-5 col-sm-12 p-0 me-3'> 
         <div className='iframe-div'>
         <div>
           <span>
@@ -22,21 +24,16 @@ function IframeSection() {
         <h3 className='py-0  text-center'> Latest Updates</h3>
                     
                     <div className='news-section d-flex flex-column marquee'>
-
-                    <div className='news-block'>Federal Minister of Science and Technology Visit PCSIR Lab Complex </div>
-                    <div className='news-block'> Award Distribution Ceremony take place for Gardeners and Sweepers by Director </div>
-                    <div className='news-block'>Provincial Minister for Industries KPK visit PCSIR Lab Complex Peshawar </div>
-                    <div className='news-block'>Management Committee Meeting on Internal Affairs of PCSIR lab Complex </div>
-                    <div className='news-block'>Member Science and Member from Food Technology Visit </div>
-                    <div className='news-block'> Member Science and Member from Food Technology Visit</div>
-
-                    <div className='news-block'>Management Committee Meeting on Internal Affairs of PCSIR lab Complex </div>
-                    <div className='news-block'>Member Science and Member from Food Technology Visit </div>
-                    <div className='news-block'> Member Science and Member from Food Technology Visit</div>
-
-                    <div className='news-block'>Management Committee Meeting on Internal Affairs of PCSIR lab Complex </div>
-                    <div className='news-block'>Member Science and Member from Food Technology Visit </div>
-                    <div className='news-block'> Member Science and Member from Food Technology Visit</div>
+                    {news.map((data)=> {
+                        return(
+                          <div className='news-block'>
+                          <Link className="link" to={`/news/${data.id}`}>
+                             {data.news_title}
+                          </Link>
+                          </div>
+                        );
+                    })}
+                  
 
 
                     </div>
