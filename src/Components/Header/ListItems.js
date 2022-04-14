@@ -1,51 +1,32 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import HoverList from './HoverList';
 
 
-function ListItems({data}) {
+function ListItems({content,link, children}) {
   const [hover, setHover] = useState(false);
   return (
     <>
-      {
-        data.hoverList && (
-          <li onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="nav-item">
-              <a className="nav-link d-flex justify-content-between align-items-center"  aria-current="page" href="##"> 
-              <span className='px-1'>{data.title}</span>
-              
-              {
-                data.topLevel && (
-                  <i class="fa fa-angle-down" aria-hidden="true"></i>
-                  )
-                }
-              {
-                !data.topLevel && (
-                  <i class="fa fa-angle-right" aria-hidden="true"></i>
-                )
-              }
-              </a>
-              
-              {
-                hover && (
-                  <HoverList topLevel={data.topLevel} dataArray={data.hoverListArray}/>
-                )
-              }
-          </li>
-        )
-      }
+    {
+      children && (
+        <li onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="nav-item">
+            <span className='px-1 text-white nav-link d-flex justify-content-between align-items-center'>{content}</span>
+            {
+              hover && children
+            }
+        </li>
 
-      {
-        !data.hoverList && (
-          <li onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="nav-item">
-              {/* <a className="nav-link d-flex justify-content-between align-items-center"  aria-current="page" href="##"> 
-              <span className='px-1'>{data.title}</span>
-              </a> */}
-              <Link to={`/${data.href}`}  className="nav-link d-flex justify-content-between align-items-center">
-              <span className='px-1'>{data.title}</span>
-              </Link>
-          </li>
-        )
-      }
+      )
+    }
+
+    {
+      !children && (
+        <li className="nav-item">
+          <Link to={`/${link}`} className="nav-link d-flex justify-content-between align-items-center">
+            <span className='px-1'>{content}</span>
+          </Link>
+        </li>
+      )
+    }
     </>
   )
 }

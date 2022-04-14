@@ -2,22 +2,15 @@ import React from 'react'
 import ListItems from './ListItems'
 import "../../assets/scss/hoverlist.scss"
 
-function HoverList({subHoverList, children, topLevel, dataArray}) {
+function HoverList({dataArray}) {
     // const [subHover, setSubHover] = useState(false);
 
     return (
         <>
-                <ul className={topLevel ? "hover__list" : "hover__list hover__list-right"}>
+                <ul className={"hover__list"}>
                     {
                         dataArray.map(item => (
-
-                            <ListItems data={item}>
-                                {
-                                    item.hoverList && (
-                                        <HoverList dataArray={item.hoverListArray}/>
-                                    )
-                                }
-                            </ListItems>
+                            <ListItems content={item} link="about us"/>
                         ))
                     }
                 </ul>
