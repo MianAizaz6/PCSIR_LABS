@@ -4,10 +4,9 @@ import "../../assets/scss/header.scss"
 import { HeaderData } from './HeaderData';
 
 
-function Header() {
 
 
-
+function Header({centers}) {
 
     return (
         <div>
@@ -22,7 +21,7 @@ function Header() {
 
                         {
                           HeaderData.map((item, index) => (
-                            <ListItems data={item}/>
+                            <ListItems data={item} />
                           ))
                         }
                     </ul>

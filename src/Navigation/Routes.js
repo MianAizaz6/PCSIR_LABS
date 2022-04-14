@@ -6,6 +6,7 @@ import EngeneeringServiceCenter from '../Pages/ENG-Service-Center/EngineeringSer
 import Medicinal from '../Pages/Research Center/Medicinal';
 import ContactUs from '../Pages/ContactUs';
 import Gallery from '../Pages/Gallery/Gallery';
+import NewsPage from '../Pages/NewsPage/NewsPage';
 
 
 
@@ -19,6 +20,7 @@ function Navigation() {
                <Route path="/medicinal-botanical-lab" element={<Medicinal />} ></Route>
                <Route path="/contact-us" element={<ContactUs />}></Route>
                <Route path="/gallery"  element={<Gallery />} ></Route>
+               <Route path="/news/:id" element={ <NewsPage/> } ></Route>
            </Routes>
        </Router>
     )

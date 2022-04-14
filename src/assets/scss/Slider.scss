@@ -39,11 +39,16 @@
     padding: 1rem 1rem;
 
     .news-block {
+        
         padding: 1rem 0;
-        color: $primary-dark;
         font-size: 1rem;
+        
         text-align: left;
         border-bottom: 1px dashed grey;
+        .link{
+            color: $primary-color !important;
+            text-decoration: none;
+        }
     }
 
     &::-webkit-scrollbar {
